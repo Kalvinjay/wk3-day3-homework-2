@@ -1,0 +1,78 @@
+/* Variables */
+body {
+  background-color: rgb(218, 170, 14);
+  /* Nest Main */
+}
+body nav {
+  overflow: hidden;
+  background-color: rgb(218, 170, 14);
+  width: 100%;
+}
+body nav ul {
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  margin-left: 30px;
+  display: flex;
+}
+body nav ul li {
+  display: inline;
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+}
+body nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 30px;
+  background-color: rgb(218, 170, 14);
+}
+body main {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+body main #intro-text {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  padding: 15em;
+  background-color: rgb(212, 213, 216);
+}
+body main #intro-text span {
+  font-family: Sacramento, cursive;
+  font-size: 50px;
+}
+body main #intro-text span h3 {
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 35px;
+}
+body main #intro-text span h3 p {
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 20px;
+}
+body main #intro-text span h3 p .submit-button {
+  font-family: Arial, Helvetica, Sans-serif;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(218, 170, 14);
+  padding: 15px 32x;
+  text-align: center;
+  text-decoration: wavy;
+  display: inline-block;
+  font-size: 16px;
+}
+body main #intro-image {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+body footer {
+  color: rgb(49, 49, 48);
+  margin-top: 25px;
+  margin-left: 75px;
+  font-family: Arial, Helvetica, Sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

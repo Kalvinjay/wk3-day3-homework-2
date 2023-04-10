@@ -1,0 +1,90 @@
+@import "./colors.scss";
+
+@mixin margin-main {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+@mixin page-format-p {
+    display: flex;
+}
+@mixin page-format-c {
+    flex: 1;
+}
+/* Variables */
+$font-1: Arial, Helvetica, Sans-serif;
+$font-2: Sacramento, cursive;
+//Nav bar
+body {
+    background-color: $color-o;
+    nav {
+            overflow: hidden;
+            background-color: $color-o;
+            width: 100%;
+        ul {
+            text-align: left;
+            list-style-type: none;
+            margin: 0;
+            padding: 15px;
+            margin-left: 30px;
+            @include page-format-p;
+            li {
+                display: inline;
+                font-family: $font-1;
+                font-size: 17px;
+                color: $color-w;
+                a {
+                    color: $color-w;
+                    text-decoration: none;
+                    padding: 30px;
+                    background-color: $color-o;
+                }
+            }
+        }
+    }    
+/* Nest Main */
+    main {
+        text-align: center;
+        background-color: $color-w;
+        @include page-format-p;
+        #intro-text {
+            @include margin-main;
+            margin-left: 25px;
+            padding: 15em;
+            background-color: $color-g;
+            span {
+                font-family: $font-2;
+                font-size: 50px;
+                h3 {
+                    font-family: $font-1;
+                    font-size: 35px;
+                    p {
+                        font-family: $font-1;
+                        font-size: 20px;
+                        .submit-button {
+                            font-family: $font-1;
+                            border: none;
+                            color: $color-w;
+                            background-color: $color-o;
+                            padding: 15px 32x;
+                            text-align: center;
+                            text-decoration: wavy;
+                            display: inline-block;
+                            font-size: 16px;
+                        }
+                    }
+                }  
+            }
+        }
+        #intro-image {
+            @include margin-main;
+            margin-right: 25px;
+        }
+    }
+    footer {
+        color: $color-B;
+        margin-top: 25px;
+        margin-left: 75px;
+        font-family: $font-1;
+    }      
+}
+// Mixin or Extend for button
