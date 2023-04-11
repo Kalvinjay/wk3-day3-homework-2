@@ -54,25 +54,25 @@ body {
             span {
                 font-family: $font-2;
                 font-size: 50px;
-                h3 {
-                    font-family: $font-1;
-                    font-size: 35px;
-                    p {
-                        font-family: $font-1;
-                        font-size: 20px;
-                        .submit-button {
-                            font-family: $font-1;
-                            border: none;
-                            color: $color-w;
-                            background-color: $color-o;
-                            padding: 15px 32x;
-                            text-align: center;
-                            text-decoration: wavy;
-                            display: inline-block;
-                            font-size: 16px;
-                        }
-                    }
-                }  
+            }
+            h3 {
+                font-family: $font-1;
+                font-size: 35px;
+            }
+            p {
+                font-family: $font-1;
+                font-size: 20px;
+            }
+            .submit-button {
+                font-family: $font-1;
+                border: none;
+                color: $color-w;
+                background-color: $color-o;
+                padding: 15px 32x;
+                text-align: center;
+                text-decoration: wavy;
+                display: inline-block;
+                font-size: 16px;
             }
         }
         #intro-image {

@@ -37,27 +37,28 @@ body main #intro-text {
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 25px;
-  padding: 15em;
+  padding: 12em;
   background-color: rgb(212, 213, 216);
 }
 body main #intro-text span {
   font-family: Sacramento, cursive;
   font-size: 50px;
 }
-body main #intro-text span h3 {
+body main #intro-text h3 {
   font-family: Arial, Helvetica, Sans-serif;
   font-size: 35px;
 }
-body main #intro-text span h3 p {
+body main #intro-text p {
   font-family: Arial, Helvetica, Sans-serif;
   font-size: 20px;
 }
-body main #intro-text span h3 p .submit-button {
+body main #intro-text .submit-button {
   font-family: Arial, Helvetica, Sans-serif;
   border: none;
   color: rgb(255, 255, 255);
   background-color: rgb(218, 170, 14);
-  padding: 15px 32x;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
   text-decoration: wavy;
   display: inline-block;
